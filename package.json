@@ -1,0 +1,34 @@
+{
+  "name": "scribbles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "d3": "^4.13.0",
+    "fast-simplex-noise": "^3.2.0",
+    "koa": "^2.4.1",
+    "koa-pug": "^3.0.0-2",
+    "koa-router": "^7.4.0",
+    "koa-static": "^4.0.2",
+    "lodash": "^4.17.5",
+    "p5": "^0.6.0",
+    "pug": "^2.0.0-rc.4",
+    "stylus": "^0.54.5"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-latest": "^6.24.1",
+    "gulp": "^3.9.1",
+    "gulp-data": "^1.3.1",
+    "gulp-stylus": "^2.7.0",
+    "koa-webpack-dev-middleware": "^2.0.2",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Evan Lori Mahone <apathinwalking@gmail.com>",
+  "license": "MIT"
+}
