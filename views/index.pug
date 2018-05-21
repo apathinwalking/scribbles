@@ -1,0 +1,10 @@
+doctype html
+html(lang='en')
+	head
+		title= Index
+		link(href="/css/index.css", rel='stylesheet')
+	body
+		h1 Index
+		ul
+			each item in index
+				li: a(href= item.path)= item.title

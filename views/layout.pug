@@ -1,7 +1,11 @@
 doctype html
 html(lang='en')
 	head
-		title Scribbles
+		title= title
 		block libs
+		if css
+			link(href= css rel='stylesheet')
+		if js
+			script(src= js type='application/javascript')
 	body
 		block content

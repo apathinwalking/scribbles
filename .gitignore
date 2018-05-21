@@ -4,3 +4,10 @@ dist
 ./dist
 ./package-lock.json
 yarn-error.log
+app/js
+app/css
+./app/js
+./app/css
+./views
+!./views/index.pug
+!./views/layout.pug
